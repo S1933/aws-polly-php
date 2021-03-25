@@ -1,0 +1,13 @@
+name: aws-polly-test
+recipe: lamp
+config:
+  php: '7.3'
+  composer_version: '2.0.11'
+  webroot: .
+  database: mysql:5.7
+  xdebug: true
+services:
+  appserver:
+    overrides:
+      volumes:
+        - ".aws:/.aws"

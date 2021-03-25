@@ -1,0 +1,14 @@
+{
+    "name": "jphilippe/aws-polly-php",
+    "description": "AWS Polly Test",
+    "require": {
+        "aws/aws-sdk-php": "^3.175",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "jnuel",
+            "email": "jnuel@atixnet.fr"
+        }
+    ]
+}
